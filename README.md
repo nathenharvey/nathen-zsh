@@ -1,0 +1,4 @@
+nathen-zsh
+==========
+
+my zshrc
