@@ -34,5 +34,8 @@ plugins=(git rake)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+for PROFILE_SCRIPT in $( ls /etc/profile.d/*.sh ); do
+  . $PROFILE_SCRIPT
+done
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
