@@ -42,3 +42,5 @@ alias cookbook='nocorrect cookbook'
 alias knife='nocorrect knife'
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+PATH=$PATH:/usr/local/bin/usr/local/bin/ec2-api-tools-1.6.5.1/bin # Add ec2-api-tools to PATH
+
