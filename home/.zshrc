@@ -38,4 +38,7 @@ for PROFILE_SCRIPT in $( ls /etc/profile.d/*.sh ); do
   . $PROFILE_SCRIPT
 done
 
+alias cookbook='nocorrect cookbook'
+alias knife='nocorrect knife'
+
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
